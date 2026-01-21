@@ -1,29 +1,36 @@
-# Sales Data Cleaning Project
+# Sales Data Exploratory Data Analysis (EDA)
 
 ## Objective
-To clean and prepare a messy sales dataset for accurate analysis and reporting.
+To clean, merge, and analyze sales data from multiple sources and extract meaningful business insights.
 
 ## Dataset Description
-The dataset contains sales transaction data with customer, product, and date-related information.
-The raw data includes missing values, duplicate records, and inconsistent formatting.
+The project uses multiple CSV files including:
+- Dates data
+- Market information
+- Product details
+- Customer data
+- Sales transactions
 
-## Issues Identified
-- Missing values in sales and customer-related columns
-- Duplicate transaction records
-- Inconsistent date formats
-- Unclean categorical text fields
+These datasets were merged to create a unified sales dataset for analysis.
 
-## Cleaning Steps Performed
-- Identified missing values and duplicates
-- Removed duplicate records
-- Handled missing values using logical rules
-- Converted date columns to standard datetime format
-- Standardized text fields for consistency
-- Validated the cleaned dataset
+## Data Cleaning & Preparation
+- Loaded multiple CSV files using Pandas
+- Merged datasets using appropriate keys
+- Handled missing values
+- Checked and removed duplicates
+- Standardized date formats
+- Validated data consistency
+
+## Exploratory Data Analysis (EDA)
+- Analyzed sales trends over time
+- Examined market-wise and product-wise performance
+- Studied customer and transaction patterns
+- Identified key metrics impacting sales performance
 
 ## Tools Used
-- Python (Pandas)
-- CSV files
+- Python
+- Pandas
+- Jupyter Notebook
 
 ## Result
-Delivered a clean, analysis-ready dataset suitable for dashboards and business analysis.
+Delivered a cleaned and well-structured dataset along with analytical insights that can support business decision-making.
